@@ -1,9 +1,13 @@
-body     {background-color:#fafafa;
+body     {background-color: #fafafa;
          }
 
 h1       {text-align      : center;
           font            : 36px "Helvetivca", sans-serif;
          }
+
+h2       {font            : 30px "Helvetica",sans-serif;}
+
+h3       {font            : 24px "Helvetica",sans-serif;}
 
 img.displayed {
           display         : block;
@@ -12,18 +16,16 @@ img.displayed {
           width           : 18em 
          }
 
-h2       {font            :30px "Helvetica",sans-serif;}
-h3       {font            :24px "Helvetica",sans-serif;}
+.container{
+          display         : block;
+          margin-left     : auto;
+          margin-right    : auto;
+          width           : 20em
+          }
 
-h2,h3    {display    :block;
-         margin-left: auto;
-         margin-right: auto;
-         width: 60%
-         }
-
-p.myprojects{
-         display    :block;
-         margin-left: auto;
-         margin-right: auto;
-         width: 6em
-         }
+.mybio{   display         : block;
+          margin-left     : auto;
+          margin-right    : auto;
+          width           : 60%;
+          font            : 17px "Helvetica",sans-serif;
+          }
